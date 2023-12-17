@@ -1,0 +1,52 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.foot{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+}
+.footer-top{
+    background-color: #e8ecf1;
+    padding: 40px;
+    font-size: 20px;
+    text-align: center; 
+}
+.main{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;  
+       margin: 12px;
+} 
+.text p{
+    font-size: 20px; 
+}
+.logo{
+    position: relative;
+    margin-top: 20px;
+}
+.logo p{
+    font-size: 40px;
+    font-weight: 700; 
+    width: 50px;
+    line-height: 35px; 
+}
+.logo p::before{
+    content: "";
+    width: 10px;
+    height: 75px;
+    background: linear-gradient(yellow,orange,red,rgb(139, 31, 139),rgb(69, 69, 235),rgb(93, 241, 93));
+    transform: rotate(20deg);  
+    position: absolute; 
+    top: 0px;
+    bottom: 0px;  
+    right: 70px; 
+}
+.icon{
+    margin-top: 25px;
+}
+.icon a{
+    color: black;
+    margin: 15px;
+}
